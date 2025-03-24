@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Educational Institution Portal</title>
+  <style>
+    /* CSS styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1;
+      background: #f1f1f1;  /* Light gray background */
+      color: #333;
+    }
+
+    header {
+      background: #003366;
+      color: #fff;
+      padding: 1rem;
+      display: flex;
+      align-items: center;  /* Center content vertically */
+      justify-content: space-evenly;  /* Space out logo and text */
+    }
+
+    header img {
+      width: 130px;  /* Adjust logo size */
+      height: 130px;
+      
+    }
+
+    header h1 {
+      margin-right: 400px;
+      font-size: 1.8rem;
+      color: white;
+    }
+
+    header nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    header nav ul li {
+      display: inline;
+      margin: 0 15px;
+    }
+
+    header nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 1.1rem;
+    }
+
+    header nav ul li a:hover {
+      color: #ffcc00;  /* Gold on hover */
+    }
+
+    main li{
+        list-style-type: none;
+    }
+
+    #alumni{
+        margin-bottom: 7rem;
+    }
+
+    section {
+      padding: 1.5rem;
+      margin: 1rem;
+      background: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;  /* Round corners for smoothness */
+      border-left: 5px solid #4CAF50;  /* Green border for sections */
+    }
+
+    footer {
+      text-align: center;
+      background: #003366;
+      color: #fff;
+      padding: 1rem;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
+
+    h1, h2 {
+      font-size: 2rem;
+      color: white;
+    }
+
+    h2 {
+      color: #009688;  /* Teal color for subsections */
+    }
+
+    ul {
+      list-style: disc inside;
+      padding: 0;
+    }
+
+    a {
+      color: #007bff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:hover {
+      text-decoration: underline;
+      color: #0056b3;
+    }
+
+    .section-header {
+      color: #f44336;  /* Red for section titles */
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    .link-btn {
+      padding: 10px 20px;
+      background-color: #28a745;
+      color: #fff;
+      border-radius: 5px;
+      text-align: center;
+      display: inline-block;
+      font-weight: bold;
+      text-decoration: none;
+      margin-top: 10px;
+    }
+
+    .link-btn:hover {
+      background-color: #218838;
+    }
+
+    /* Hover animation for links */
+    a {
+      transition: color 0.3s ease, font-size 0.3s ease;
+    }
+
+    a:hover {
+      font-size: 1.1rem;  /* Slightly larger font size on hover */
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="logo.png" alt="College Logo"> <!-- Replace with the actual path to your logo image -->
+    <h1>Government Arts College (Autonomous), Salem-7</h1>
+    <nav>
+      <ul>
+        <li><a href="#students">Students</a></li>
+        <li><a href="#teachers">Teachers</a></li>
+        <li><a href="#parents">Parents</a></li>
+        <li><a href="#alumni">Alumni</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Students Section -->
+    <section id="students">
+      <h2 class="section-header">Students</h2>
+      <ul>
+        <li>Pay <a href="https://ecampus.cc/gacslm7/index.php" class="link-btn">Exam Fees</a></li>
+        <li>Download <a href="#" class="link-btn">Study Certificates</a></li>
+        <li>Apply for <a href="#" class="link-btn">Scholarship</a> (BC/MBC/SC/ST)</li>
+        <li>Request <a href="Train Form.pdf" class="link-btn" download>Train Pass</a></li>
+        <li>Register for <a href="#" class="link-btn">Pudhumai Penn Scheme</a></li>
+        <li><a href="#" class="link-btn">No Dues Form</a></li>
+        <li>View <a href="HAND BOOK 2024-25.pdf" class="link-btn" target="_blank" download>Academic Calendar</a></li>
+      </ul>
+    </section>
+
+    <!-- Teachers Section -->
+    <section id="teachers">
+      <h2 class="section-header">Teachers</h2>
+      <ul>
+        <li>Submit <a href="CL form.pdf" class="link-btn" download>CL Form</a></li>
+        <li>Submit <a href="ML form.pdf" class="link-btn" download>ML Form</a></li>
+        <li>Request <a href="OD FORM.pdf" class="link-btn" download>OD Form</a></li>
+        <li>Check <a href="#" class="link-btn">List of RH</a></li>
+        <li>Download <a href="attendance.pdf" class="link-btn" download>Attendance Certificate</a></li>
+      </ul>
+    </section>
+
+    <!-- Parents Section -->
+    <section id="parents">
+      <h2 class="section-header">Parents</h2>
+      <ul>
+        <li>Access <a href="#" class="link-btn">Library Facilities</a></li>
+        <li>Check <a href="#" class="link-btn">Sports Timing & Fees</a></li>
+        <li>Browse <a href="#" class="link-btn">Courses Offered</a></li>
+      </ul>
+    </section>
+
+    <!-- Alumni Section -->
+    <section id="alumni">
+      <h2 class="section-header">Alumni</h2>
+      <ul>
+        <li>Get Invitation for <a href="#" class="link-btn">Events</a></li>
+        <li>Stay Updated with <a href="#" class="link-btn">News & Achievements</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Educational Institution. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
